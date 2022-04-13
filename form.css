@@ -1,0 +1,60 @@
+span{
+    display: block;
+    width: 100%;
+}
+input[type=text],input[type=email],fieldset,select,textarea{
+    width: 100%;
+    border-radius: 5px;
+    height: 30px;
+}
+input[type=text]:invalid,input[type=email]:invalid{
+    border-color: red;
+}
+input:focus,textarea:focus{
+    background-color: gold;
+}
+textarea{
+    height: 10%;
+    margin-bottom: 2%;
+}
+fieldset{
+    height: auto;
+    padding: 0;
+}
+button{
+    display: block;
+    margin: 0 auto;
+    background-color: dodgerblue;
+    border-radius: 20px;
+    padding: 10px 15px;
+    color: white;
+    border: none;
+    font-size: 20px;
+}
+button:hover{
+    background-color:tomato;
+}
+form{
+    line-height: 30px;
+    max-height: 500%;
+    display: block;
+    margin: 0 auto;
+    width: 80%;
+}
+.rong{
+    height: 20px;
+}
+.a{
+    display: block;
+    margin: 0 auto;
+    width: 50%;
+    background-color:rgb(238, 237, 237);
+}
+body{
+    background-image: url('./background-đẹp-3-1024x682.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+#loi{
+    color: red;
+}
